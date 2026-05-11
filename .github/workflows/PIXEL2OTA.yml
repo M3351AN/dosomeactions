@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Download file
         run: |
-          curl -L -o walleye-factory.zip --retry 5 --retry-delay 10 \
+          curl -L -o walleye-factory-OTA.zip --retry 5 --retry-delay 10 \
             "https://dl.google.com/dl/android/aosp/walleye-ota-opd1.170816.010-768eb7b1.zip"
 
       - name: Upload artifact
